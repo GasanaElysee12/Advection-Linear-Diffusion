@@ -1,4 +1,8 @@
 
+"""In this work we are going to solve linear advection-diffusion partial differential equation
+using forward in time and backward in space as it is more stable for velocity between 0 and 1."""
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
