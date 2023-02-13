@@ -72,7 +72,7 @@ def Plot(func,t_start,t_end,u,x,c,dt=0.15):
     fig,ax=plt.subplots(figsize=(9,6))
     while t_start<t_end:
 
-        new_u=func(u,c)
+        new_u=func(u,c)#Assign the new value for pde to new_u that will be used to update the value of u.
 
         u=new_u
         
